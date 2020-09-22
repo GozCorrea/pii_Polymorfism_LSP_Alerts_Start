@@ -19,7 +19,7 @@ namespace LSP
         private static void RaiseInformationEvent(string eventName)
         {
             // Usamos el nombre "_event" porque "event" es una keyword.
-            Event _event = new Event();
+            Event_Text _event = new Event_Text();
             _event.EventType = "information";
             _event.EventName = eventName;
             _event.Notify();
@@ -28,7 +28,7 @@ namespace LSP
         private static void RaiseSevereEvent(string eventName)
         {
             // Usamos el nombre "_event" porque "event" es una keyword.
-            Event _event = new Event();
+            Event_Severe _event = new Event_Severe();
             _event.EventType = "severe";
             _event.EventName = eventName;
             _event.Notify();

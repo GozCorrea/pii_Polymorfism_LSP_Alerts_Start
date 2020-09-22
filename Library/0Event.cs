@@ -1,4 +1,4 @@
-namespace LSPLibrary
+/*namespace LSPLibrary
 {
     public class Event
     {
@@ -16,3 +16,4 @@ namespace LSPLibrary
         }
     }
 }
+*/
